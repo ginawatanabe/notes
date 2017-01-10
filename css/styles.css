@@ -1,0 +1,54 @@
+.container {
+  height: auto;
+  width: auto;
+  background-color: yellow;
+}
+
+nav {
+  height: 100px;
+  width: inherit;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-end;
+}
+
+nav ul {
+  height: auto;
+  width: 500px;
+  background-color: brown;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  align-items: center;
+}
+
+
+.not-nav {
+  height: auto;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+}
+
+.content {
+  height: auto;
+  width: 700px;
+  background-color: orange;
+}
+
+.title {
+  height: 400px;
+  width: inherit;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.paragraphs {
+  height: auto;
+  width: inherit;
+}
