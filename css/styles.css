@@ -52,3 +52,13 @@ nav ul {
   height: auto;
   width: inherit;
 }
+
+.side-links {
+  height: 200px;
+  width: auto;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
