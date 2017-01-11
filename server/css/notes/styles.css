@@ -1,0 +1,148 @@
+html, body, p, ul, h1, h2, h3, h4, h5 {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: auto;
+  width: auto;
+  background-color: yellow;
+}
+
+nav {
+  height: 100px;
+  width: inherit;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  height: auto;
+  width: 500px;
+  background-color: brown;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 0;
+  align-items: center;
+}
+
+.not-nav {
+  height: auto;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+}
+
+.side-nav {
+  height: 1000px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: red;
+}
+
+.actions {
+  height: 100px;
+  width: 90%;
+  background-color: purple;
+}
+
+.classes {
+  height: 900px;
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellow;
+}
+
+.class-list {
+  height: 90%;
+  width: 90%;
+  margin-top: 10px;
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  /*justify-content: center;*/
+  flex-direction: column;
+}
+
+.class {
+  height: 200px;
+  width: 150px;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.x {
+  height: 30px;
+  width: auto;
+  background-color: orange;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  height: 950px;
+  width: 900px;
+  background-color: orange;
+}
+
+.title {
+  height: 100px;
+  width: inherit;
+  background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flash {
+  height: 800px;
+  width: inherit;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  height: 100px;
+  width: inherit;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: blue;
+}
+
+.manage {
+  height: 100px;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: yellow;
+}
+
+.single {
+  height: auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: purple;
+  flex-direction: row;
+}
+
+.multiple {
+  height: auto;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: brown;
+}
